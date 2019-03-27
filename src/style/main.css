@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body, p {
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#name {
+    font-family: 'Muli', sans-serif;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#icon-location {
+    width: 16.43px;
+    height: 21px;
+    display:inline-block;
+}
+
+#location {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 300;
+    color: white;
+}
+
+#jobs {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar {
+    padding: 0 106px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.bio {
+    padding-top: 50px;
+    padding-bottom: 54px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.orange-button {
+    margin:auto;
+    background-color: #F47522;
+    color: #FFFFFF;
+    border: #F47522;
+    font-weight: bold;
+    padding: 13px 43px 16px 43px;
+}
+
+.orange-button:hover {
+    background-color: #F47522;
+    color: #FFFFFF;
+    border: #F47522;    
+}
+
+#logo-atas, #logo-bawah {
+    width: 133.52px;
+}
+
+#self-photo {
+    width: 174px;
+    top: 63px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.navigation.nonaktif {
+    color: #19345E !important;
+    font-weight: bold !important;
+}
+
+.navigation.active {
+    color: #F47522 !important;
+    font-weight: bold !important;
+}
+
+.menu {
+    margin: auto;
+    vertical-align: middle;
+}
+
+.info {
+    margin: 60px 106px 139px 105px;
+    text-align: left;
+    padding: 0 0;
+    border: 1px solid #DEDEDE;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px RGBA(0,0,0,.16);
+}
+
+.head-2 {
+    font-family: 'Muli';
+    font-size: 25px;
+    font-weight: bold;
+    color: #19345E;
+}
+
+#alterra-orange{
+    color: #F47522;
+}
+
+.table th, .table tr, .table td, .table thead, .table tbody{
+    border: 1px solid #CBCBCB;
+}
+
+.table tr:nth-child(even) {
+    background-color: #e3e3e3;
+    border: 1px solid #cbcbcb;
+}
+
+.col-info-1 {
+    padding: 31px 57px 76px 60px;
+}
+
+.col-info-2 {
+    padding: 31px 57px 76px 60px;
+}
+
+.col-info-3 {
+    padding: 45px 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.col-info-4 {
+    padding: 45px 50px;
+    text-align: left !important;
+    vertical-align: middle;
+}
+
+.footer {
+    margin: 0;
+    padding: 0 56px;
+    width: 100%;
+    background-color: #19345E;
+    text-align: center;
+    bottom: 0;
+}
+
+.header {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 16px 0 12.83px 0;
+    box-shadow: 0 3px 6px RGBA(0,0,0,.16);
+}
+
+#copy-right {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+.med-sos {
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    color:#F7F7F7;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.medsos-table {
+    margin: auto;
+}
+
+.medsos-table td {
+    padding: 5px 0;
+    text-align: left;
+}
+
+#icon-facebook, #icon-twitter, #icon-instagram {
+    max-height: 12.97px;
+    max-width: 12.97px;
+    text-align: center;
+}
+
+#follow-us {
+    font-family: 'Arial';
+    font-size: 17px;
+    font-style: bold;
+    color: white;
+    font-weight: 400;
+}
+
+.gallery-gambar-total {
+    text-align: center;
+    padding: 0 100px;
+}
+
+.gallery-gambar {
+    padding: 0 100px;
+}
+
+.bawah {
+    margin-bottom: 200px;
+}
+
+.gambar {
+    width: 112px;
+    height: 112px;
+    margin: 19px auto;
+    border: solid 1px #8B8B8B;
+    border-radius: 8px;
+}
+
+.judul-gallery {
+    font-family: 'Muli';
+    font-size: 20px;
+    color: #19345E;
+    text-align: left;
+    font-weight: bold;
+    margin: 50px 106px 20px 106px;
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+}
+
+#icon-gallery {
+    max-height: 41.27px;
+}
+
+@media (max-width: 200px) {
+    #self-photo{
+        width: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-info-4 {
+        padding: 50px 50px;
+        text-align: center !important;
+        vertical-align: middle;
+    }
+}
+
+@media (min-width: 376px){
+    .gambar {
+        width: 176px;
+        height: 176px;
+    }
+}
+
+@media (min-width: 450px){
+    .gambar {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (min-width: 505px){
+    .gambar {
+        width: 305px;
+        height: 305px;
+    }
+}
+
+@media (min-width: 768px){
+    .gambar {
+        width: 176px;
+        height: 176px;
+    }
+}
+
+@media (min-width: 992px){
+    .gambar {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (min-width: 1200px){
+    .gambar {
+        width: 305px;
+        height: 305px;
+    }
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0;
+  }
+
+/* Contact */
+
+.imgcontact {
+    background:linear-gradient(
+        rgba(25, 52, 94,0.8),
+        rgba(25, 52, 94,0.8));
+    background-repeat: no-repeat;
+    margin:0; 
+    height: 792px;
+    width: 589px;
+    background-size: cover;
+    position:relative;
+}
+
+.depan{
+    z-index: 1;
+}
+
+.center {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    margin:auto;
+    height: 110px;
+    width: 223px;
+}
+.w445h52{
+    width: 445px;
+    height: 52px;
+}
+.w445h120{
+    width: 445px;
+    height: 120px;
+}
+.w400h52{
+    width: 400px !important;
+    height: 52px;
+}
+
+.w45h52{
+    width: 45px;
+    height: 52px;
+}
+
+.fontMuli{
+    font-family: Muli;
+    font-size: 14px;
+}
+.Muli12{
+    font-family: Muli;
+    font-size: 12px;
+}
+.Muli16{
+    font-family: Muli;
+    font-size: 16px;
+    color:white;
+}
+.Muli28{
+    font-family: Muli;
+    font-size: 28px;
+    color: #19345E;
+    font-weight: bold
+}
+.fontRed{
+    color: red;
+}
+
+.listnational{
+    width: 445px;
+    height: 52px;
+    background-color: white;
+    text-align: right;
+    border-color:grey;
+}
+.imgName{
+    height:19px;
+    padding: 0 4px;
+    width: 23px;
+    background-color: white;
+}
+.imgEmail{
+    height:15px;
+    width: 23px;
+    background-color: white;
+}
+.imgPhone{
+    height:28px;
+    padding: 0 3.5px;
+    width: 23px;
+    background-color: white;
+}
+.imgforEmail{
+padding-left:30px;
+width: 445px;
+height: 52px;
+}
+.padding75px{
+    padding-left: 75px;
+    padding-top:50px;
+}
+
+.dropdownlist{
+    width: 445px;
+    height: 52px;
+    text-align: center;
+    font-family: Muli;
+    font-size: 14px;
+    color:black;
+    background-color: white;
+}
+
+.dropdownitem{
+    background-color: white;
+    color:black;
+    z-index: 10;
+}
+
+.dropdown-menu{
+    background-color: white;
+    color:black;
+    z-index: 10;
+}
+
+.bgnWhite{
+    background-color: white;
+    border-right: white
+}
+
+/* @media screen and (max-width: 767px) { */
+    /* .imgcontact { */
+        /* height: 100px; */
+    /* } */
+/* } */

@@ -1,11 +1,16 @@
 {
-  "name": "react_ecommerce",
+  "name": "challenge_react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.8.5",
-    "react-dom": "^16.8.5",
-    "react-scripts": "2.1.8"
+    "axios": "^0.18.0",
+    "i": "^0.3.6",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-router-dom": "^4.3.1",
+    "react-script": "^2.0.5",
+    "react-scripts": "^2.1.8",
+    "unistore": "^3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
